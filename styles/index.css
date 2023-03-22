@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+}
+
+body {
+    background-color: #F2F2F2;
+}
+html{
+    scroll-behavior: smooth;
+}
+.page {
+    display: inline-block;
+    margin: 40px 100px;
+    padding: 40px 60px;
+    background-color: white;
+    border-radius: 55px;
+}
+
+.main-title-text__up {
+    font-weight: 700;
+    font-size: 96px;
+}
+
+.main-title-text__down {
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.main-content {
+    width: 615px;
+}
+
+.main-text {
+    font-size: 32px;
+    font-weight: 200;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+.box{
+display: flex;
+flex-direction: column;
+    align-items: center;
+}
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.selection:last-child{
+    margin-top: 100px;
+}
+
+.main-section-image {
+    background-color: #EAEAEA;
+    padding: 100px 30px;
+    border-radius: 55px;
+}
+
+.main-button>a {
+    background-color: #7BC0FF;
+    border-radius: 27px;
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+    border: none;
+    padding: 35px 110px;
+    text-decoration: none;
+}
+
+.line {
+    background-color: #000000;
+    width: 187px;
+    height: 5px;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.section-title-text {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.title-text {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.section-image {
+    width: 480px;
+    height: 420px;
+    background-color: #CDDBFF80;
+    padding: 26px 35px;
+    border-radius: 55px;
+}
+
+.section-content {
+    width: 700px;
+
+}
+.selection:first-child{
+    justify-content: space-evenly;
+}
+
+.section-article {
+    margin-top: 40px;
+}
+
+.list-item {
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 200;
+    line-height: 46px;
+    vertical-align: middle;
+    position: relative;
+    padding-left: 45px;
+    margin-bottom: 15px;
+}
+
+.list-item::before {
+    content: "";
+    width: 7px;
+    position: absolute;
+    height: 7px;
+    left: 0;
+    top: 50%;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.image {
+    width: 350px;
+    height: 840px;
+    background-color: #EAEAEA;
+    border-radius: 55px;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image-wrapper {
+    width: 30%;
+    height: 365px;
+    border-radius: 55px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.image-wrapper:nth-child(1) {
+    background-image: url("../assets/images/блок1.png");
+}
+.image-wrapper:nth-child(2) {
+    background-image: url("../assets/images/222.png");
+}
+.image-wrapper:nth-child(3) {
+    background-image: url("../assets/images/333.png");
+
+}
+.image-wrapper:nth-child(4) {
+    margin-top: 25px;
+    background-image: url("../assets/images/444.png");
+}
+.image-wrapper:nth-child(5) {
+    margin-top: 25px;
+    background-image: url("../assets/images/555.png");
+}
+.image-wrapper:nth-child(6) {
+    margin-top: 25px;
+    background-image: url("../assets/images/666.png");
+}
+.back{
+position: absolute;
+width: 100%;
+height: 100%;
+display: none;
+background: #EAEAEA;
+opacity: 1;
+border-radius: 55px;
+}
+.image-wrapper p {
+    display: none;
+    position: absolute;
+    color: #000000;
+    font-weight: bold;
+    left: 5%;
+    top: 15%;
+   
+}
+
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.images-title p {
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    margin-top: 40px;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.ad {
+    display: flex;
+    flex-direction: column;
+   
+}
+.section-title-text-down{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+}
+.section-title-ladder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.human{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.human-img{
+    width: 500px;
+    height: 480px;
+    border-radius: 55px;
+    background-image: url("../assets/images/скарина.png");
+    background-size: cover;
+    background-position: 10% 10%;
+    
+}
+.human-article{
+    width: 720px;
+}
+.human-articatl-down{
+    margin-top: 80px;
+   margin-left: 65px;
+
+}
+.human-articatl-down p{
+    margin-top: 50px;
+   margin-left: 65px;
+
+}
